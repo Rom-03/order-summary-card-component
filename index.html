@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="font-redHat bg-paleBlue bg-[url('/src/images/pattern-background-desktop.svg')] bg-no-repeat bg-contain"
+  >
+    <div class="flex justify-center items-center min-h-screen px-1">
+      <div
+        class="max-w-[320px] mx-auto bg-white rounded-2xl overflow-hidden shadow-xl"
+      >
+        <img src="/src/images/illustration-hero.svg" alt="" />
+        <div class="px-5">
+          <div class="pt-6 pb-4">
+            <h1 class="text-darkBlue text-2xl font-extrabold text-center"
+              >Order Summary</h1
+            >
+          </div>
+          <div class="text-center text-sm tracking-wide px-4">
+            <p class="text-desaturatedBlue">
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+          </div>
+          <div
+            class="bg-veryPaleBlue flex items-center p-4 text-sm rounded-xl my-6"
+          >
+            <img src="/src/images/icon-music.svg" alt="" />
+            <div class="px-4">
+              <h2 class="text-darkBlue font-extrabold tracking-tight"
+                >Annual Plan</h2
+              >
+              <p class="text-desaturatedBlue text-xs tracking-wide"
+                >$59.99/year</p
+              >
+            </div>
+            <div class="pl-9">
+              <span
+                class="underline cursor-pointer text-brightBlue text-xs font-extrabold hover:no-underline hover:text-desaturatedBlue"
+                >Change</span
+              >
+            </div>
+          </div>
+          <div
+            class="text-center bg-brightBlue p-3 rounded-xl hover:bg-blue-400 cursor-pointer drop-shadow-2xl"
+          >
+            <h3 class="text-white text-sm font-bold tracking-wide"
+              >Proceed to Payment</h3
+            >
+          </div>
+          <div class="text-center py-6 text-desaturatedBlue">
+            <p
+              class="text-sm font-extrabold tracking-wide hover:text-darkBlue cursor-pointer"
+              >Cancel Order</p
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution flex justify-center items-center py-2">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/Rom-03">Jerome Anos</a>.
+    </div>
+  </body>
+</html>
